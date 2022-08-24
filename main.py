@@ -131,6 +131,7 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
     for k, v in config.items():
         if k[0:5] == "birth":
             birthdays[k] = v
+    city_name='自定义输出哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈'
     data = {
         "touser": to_user,
         "template_id": config["template_id"],
